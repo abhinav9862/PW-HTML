@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get and POST form</title>
+</head>
+<body>
+    <!-- GET is used to request data from a specified resource. -->
+    <!-- The <target> attribute defines a name of, or keyword for, a browsing context (e.g. tab, window, or inline frame (in new window tab) -->
+        <!-- <action> attribute is used to tell what kind of form it is e.g. /signup, /faq, /contact us, etc....The action attribute specifies where to send the form-data when a form is submitted. -->
+    <form method="get" target="_blank" action="">
+        <fieldset>
+            <legend><b>User Registration</b></legend>
+            <label for="username">Enter your username:</label>
+            <input type="username" id="username" name="username">
+            <br>
+            <br>
+            <label for="useremail">Enter your email:</label>
+            <input type="email" id="useremail" name="useremail">
+            <br>
+            <br>
+            <label for="password">Enter your password:</label>
+            <input type="password" id="userpassword" name="userpassword">
+            <br>
+            <br>
+            Gender:
+            <br>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" >
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            <label for="transgeder">Transgender</label>
+            <input type="radio" id="transgender" name="gender" value="transgender">
+            <br>
+            <br>
+
+            <input type="submit" value="Submit Form">
+
+        </fieldset>
+    </form>
+</body>
+</html>

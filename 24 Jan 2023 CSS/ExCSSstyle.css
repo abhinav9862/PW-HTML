@@ -1,0 +1,16 @@
+/* body{
+    background-color: #808080;
+} */
+
+.heading{
+    /* to apply font color */
+    color: orangered;
+    /* to make font size big and small or manuallly */
+    font-size: 25px;
+    /* whatever test will be written on page to apply on center */
+    text-align: center;
+    /* to make underline in element */
+    text-decoration: underline;
+    /* to make dotted border */
+    border: 5px dotted black;
+}

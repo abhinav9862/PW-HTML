@@ -1,0 +1,37 @@
+/* /desc selector */
+main p{
+    color: black;
+    background-color: red;
+    font-size: 20px;
+
+}
+/* Child Selector */
+span > h3{
+    color: brown;
+    background-color: darkgreen;
+}
+/* Adjacent sibling selector */
+/* section+p{
+    background-color: #808088;
+    color: red;
+} */
+/* General sibling */
+section ~ p{
+    background-color: black;
+    color: red;
+    font-size: 30px;
+}
+/* Attribute selector */
+[target="_blank"]{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: aqua;   
+}
+/* attribute selector with (~) tild symbol */
+[alt~="PW"]{
+    background-color: #808080;
+    font-weight: bold;
+    font-size: 25px;
+}

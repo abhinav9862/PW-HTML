@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of input forms</title>
+</head>
+<body>
+    
+        
+    <form method="get" target="_blank" action="">
+        <!-- to set default value use <value> user user can edit also it -->
+        <fieldset>
+            <legend><b>User Registration</b></legend>
+            <label for="username">Enter your username:</label>
+            <input type="username" id="username" name="username">
+            <br>
+            <br>
+            <!-- to give hint to the user use <placeholder> (e.g. abcd@gmail.com) -->
+            <label for="useremail">Enter your email:</label>
+            <input type="email" id="useremail" name="useremail" placeholder="abcd@gmail.com">
+            <br>
+            <br>
+            <!-- to give read only value - <readonly> -->
+            <!-- to disable the text of value use (text in box will not highlited) - <disabled>  -->
+            <!-- aoutofocus is used for highlighting work box -->
+            <label for="country">Country Name:</label>
+            <input type="india" id="india" name="india" value="india" readonly disabled autofocus>
+            <br>
+            <br>
+            <label for="password">Enter your password:</label>
+            <input type="password" id="userpassword" name="userpassword" autofocus>
+            <br>
+            <br>
+            Gender:
+            <br>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" >
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            <label for="transgeder">Transgender</label>
+            <input type="radio" id="transgender" name="gender" value="transgender">
+            <br>
+            <br>
+            <!-- number type is use for only input the numbers -->
+            <!-- in <number> we add <min> or <max> value for setting the values -->
+            <label for="number">Select quantity:</label>    
+            <input type="number" min="0" max="10">
+            <br>
+            <br>
+
+            <input type="submit" value="Submit Form">
+
+        </fieldset>
+    </form>
+</body>
+</html>

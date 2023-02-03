@@ -1,0 +1,36 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selctor */
+h1{
+    color: darkgoldenrod;
+}
+/* Class Selector / we always use (.pra) for class attribute */
+.pra{
+    font-size: 20px;
+     color: rgb(255, 0, 0);    
+}
+
+/* use of multiple class name */
+.hello{
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+/* Id Selector / we use (#) symbol for id  */
+#id1{
+    color: black;
+    background-color: #808080;
+    font-size: 25px;
+}
+
+/* Selector List */
+/* we use selector list for write multiple attribute(tag) in sigle-line with use of comma` */
+.abhi, .nav, #id2{
+    color: darkred;
+    font-size: 30px;
+    background-color: yellowgreen;
+}

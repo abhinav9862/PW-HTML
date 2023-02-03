@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <!-- use of label tag is box highlighting -->
+    <!-- use of <input> tag is for making a text box -->
+    <!-- <input> tag is auto closing tag -->
+    <!-- it's also a single line text -->
+<form>
+    <fieldset>
+        <!-- The <legend> tag defines a caption for the <fieldset> element. -->
+        <legend><b>User Details</b></legend>
+        <!-- The <fieldset> tag is used to group related elements in a form. -->
+        <!-- The <fieldset> tag draws a box (border) around the related elements. -->
+
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="username">
+       <br>
+       <br>
+       <!-- use of <textarea> tag is to write multiline text -->
+       <!-- we use rows & coloumn for making customize box -->
+       <label for="address">Enter your address:</label>
+       <textarea rows="1" cols="15" id="address" name="useraddress"></textarea>
+       <br>
+       <br>
+       <!-- we use name attribute for to identify on sever site that's the name or dob or addreess or email-id etc -->
+       <label for="dob">DOB:</label>
+       <input type="date"  id="dob" name="userdob">
+       <br>
+       <br>
+       <label for="password">Enter your password:</label>
+       <input type="password"  id="password" name="userpassword">
+       <br>
+       <br>
+       Select gender:
+       <!-- we use Radio button for choose only one input -->
+       <label for="male">Male</label>
+       <input type="radio" id="male" name="gender">
+       <br>
+       <label for="female" id="female">Female</label>
+       <input type="radio" id="female" name="gender">
+       <br>
+       <label for="trangender">Transgender</label>
+       <input type="radio" id="transgender" name="gender">
+       <br>
+       <br>
+       Select your favourite movies:
+       <br>
+       <label for="final destination">Final destination</label>
+       <input type="checkbox" id="final destination" name="final destination">
+       <br>
+       <label for="gunday">Gunday</label>
+       <input type="checkbox" id="gunday" name="gunday">
+       <br>
+       <label for="thor">Thor</label>
+       <input type="checkbox" id="thor" name="thor">
+       <br>
+       <label for="pathaan">Pathaan</label>
+       <input type="checkbox" id="pathaan" name="pathaan">
+       <br>
+       <br>
+       <!-- use of submit - to submit the form -->
+   
+       <input type="submit">
+
+    </fieldset>
+</form>
+
+
+</body>
+</html>
