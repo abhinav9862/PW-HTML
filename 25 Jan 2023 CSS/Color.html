@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bring in colors and styles</title>
+    <style>
+        /* this is the hex value of color, it's mostly useable thing, it is used everywhere, this hex value accuracy is static for all web browser...ye kisi bhi browser pe change nahi hota hai, har software me yhi use hota hai. (#) code is available everywhere*/
+        p{
+            color: #a4e82e9f;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        body{
+            background-color: #b13317b7;
+            /* we use <background-img:url()> for bring image address  */
+            background-image: url(https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            /* background-repeat is used for removing multiple image in background */
+            /* instead of (place of)<no-repeat> we can use <x-repeat> or <y-repeat> */
+            background-repeat: no-repeat;
+            /* The background-attachment CSS property sets whether a background image's position is fixed within the viewport, or scrolls with its containing block. */
+            /* paragraph ke saath upar niche scroll hota hai... */
+            background-attachment: local;
+            /* we use <background-size: cover> for covering page through image */
+            background-size: cover;    
+
+        }
+    </style>
+</head>
+<body>
+    <!-- colors -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quasi?</p>
+</body>
+</html>
