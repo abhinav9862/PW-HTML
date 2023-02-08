@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .p{
+            display: inline;    
+        }
+
+        span{
+            display: block;
+        }
+
+        /* nline-block allows to set a width and height on the element. Also, with display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not. */
+        .in-blck{
+        display: inline-block;
+        width: 1600px;
+        height: 200px;
+        color: red;
+        
+
+        }
+    </style>
+    <title>Display property</title>
+</head>
+<body>
+    <!-- Display property: Inline -->
+    <!-- <p> default behaviour is Block  -->
+    <p class="inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quasi.</p>
+    <p class="inline">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    <br>
+    <hr>
+    <!-- <span> default beahviour is Inline -->
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque.</span>
+        <br>
+        <br>
+
+        <!--  -->
+        <p class="in-blck">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, consequatur.</p>
+
+        <p class="in-blck">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, consequatur.</p>
+</body>
+</html>
