@@ -1,0 +1,57 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    animation-name: colorchange;
+    position: relative;
+    animation-duration: 5s;
+    animation-delay: 3;
+    /* (iteration-count)is used for animation repeating */
+    /* we alsouse (iteration-count: infnite) for continue repeating while we not getting page refresh */
+    /* animation-iteration-count: 3;................ */
+
+    /* ulta animate hoga */
+    /* animation-direction: reverse;......... */
+
+    /* The animation-direction property defines whether an animation should be played forwards, backwards or in alternate cycles. */
+    /* animation-direction: alternate-reverse;........ */
+    
+    /* show last key frame value in final result */
+    animation-fill-mode: forwards;
+}
+    #ease{animation-timing-function: ease;}
+    #linear{animation-timing-function: linear;}
+    #ease-in{animation-timing-function: ease-in;}
+    #ease-in-out{animation-timing-function: ease-in-out;}
+        
+@keyframes colorchange {
+    /* doubt from bcg color is not load */
+    /* we can also define in time duration % percentage */
+    0% {
+        background-color: yellow;
+        top: 0px;
+        left: 0px;
+        
+    }
+    25% {
+        background-color: blue;
+        top: 0px;
+        left: 200px;
+        
+    }
+    50%{
+        background-color: red;
+        top: 200px;
+        left: 200px;
+    }
+    75%{
+        background-color: greenyellow;
+        top: 200px;
+        left: 0px;
+    }
+    100%{
+        background-color: purple;
+        top: 0px;
+        left: 0px;
+    }
+}

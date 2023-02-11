@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        /* in linear gradient we use two or morne color for background filling */
+        /* we use (to left,to bottom, to right, to up) for which color you want started in which direction you want */
+        /* .grad{
+            height: 500px;
+            background-image: linear-gradient(to top, red,yellow);
+        } */
+
+        /* in radial gradient background image comes under in ellipse shape, circle shape,ovel shape  */
+        /* how many shapes in radial gradient? */
+        /* .grad{
+            background-image: radial-gradient(red,yellow);
+        } */
+
+        /* colors are repating in a cricle, when we are putting % in colors value */
+        .grad{
+            background-image: repeating-radial-gradient(red 10%,black 20%,green 15%);
+        }
+
+        /* brings into color in 360' degree, 360 me color ko failata hai, isko hum manually bhi set kar sakte hai ex-260deg,110deg,95deg etc what you want. */
+        .grad{
+            background-image: conic-gradient(red,yellow,black);
+        }
+    </style>
+</head>
+<body>
+    <div class="grad"></div>
+</body>
+</html>

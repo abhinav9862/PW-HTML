@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        /* hover selector is used to select elements when you mouse over them */
+        p:hover{
+            background-color: black;
+            color: white;
+        }
+        input:focus{
+            color: chartreuse;
+            background-color: red;
+            font-size: 25px;
+         }
+         a:hover{
+            color: red;
+         }
+         /* active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button. */
+         a:active{
+            color: chartreuse;
+         }
+         /* visited selector is used to select visited links */
+         a:visited{
+            color: darkorange;
+         }
+         a:first-child{
+            color: brown;
+            background-color: #808080;
+         }
+
+         a:nth-child(1){
+            
+            background-color:lime;
+         }
+
+         
+
+    </style>
+    <title>Pseudo Classes</title>
+</head>
+<body>
+    <p class="hover">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, assumenda.</p>
+    <input type="text">
+    <hr>
+    <nav>
+        <a href="https://www.google.com/">Google</a>
+        
+        <a href="https://www.google.com/">Google</a>
+        
+        <a href="https://www.google.com/">Google</a>
+        
+        <a href="https://www.google.com/">Google</a>
+        
+        <a href="https://www.google.com/">Google</a>
+        
+        <a href="https://www.google.com/">Google</a>
+    </nav>
+</body>
+</html>

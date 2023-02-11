@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions and tooltips</title>
+    <style>
+        /* we use (transition:2s) jab bhi hum mouse ko element ko upar lekr jaye to smoothly element bada ho */
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            transition: 2s;
+            /* transition-timing-function: ease-out; */
+            /* transition-delay: 2s; */
+        }
+        /* we use hover with (width and hieght) for element should gone to be big  */
+        div:hover{
+            width: 250px;
+            height: 250px;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Transitions -->
+    <div></div>
+
+    <!-- Tooltip -->
+    <!-- usually paragraph ko tooltip nhi dete hai. image, anchor tag in sab ko dete hai, kisi bhi image or link  pe cursor le jaate wha pop-up aa jata hai use hum kehte hai tooltip, wo title ki help se banta hai.  -->
+    <p title="Hello Abhinav">Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
