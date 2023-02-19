@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and Z-index</title>
+    <style>
+        p{
+            height: 250px;
+            width: 250px;
+            border: 2px solid red;
+            /* in <overflow> hidden, auto, scroll three functions are available */
+            overflow: auto;
+           
+        }
+        .one{
+            height: 90px;
+            width:  90px;
+            background-color: gray;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+            
+        }
+        .two{
+            height: 50px;
+            width:  50px;
+            background-color: darkslateblue;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- overflow -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat iure facere. Dolorum perspiciatis optio libero aperiam molestias cumque quas, repellat placeat ipsa fugit. Labore laborum, expedita provident voluptates deserunt impedit debitis voluptas illo, neque dolorem voluptate illum eos facilis placeat tempore tempora. Quas, fugiat quis. At sapiente facilis illum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum quo non adipisci similique? Sapiente </p>
+
+     <!-- Z-index the When elements are positioned, they can overlap other elements. The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others). -->
+    <div class="one"></div>
+    <div class="two"></div>
+
+
+</body>
+</html>

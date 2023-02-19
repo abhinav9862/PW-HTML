@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eorking with different css positions property</title>
+    <style>
+        .main{
+            border: 4px solid red;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            
+        }
+        .box1{
+            background-color: red; 
+            /* <Relative> apne orignal jagh se space lega */
+            /* position: relative;
+            top: 25px;
+            left: 10px; */
+            border: 3px solid black;
+
+        }
+        .box2{
+            background-color: blue;
+            /* position: fixed;
+            bottom: 0;
+            right: 10px;
+            border-radius: 50px; */
+            border: 3px solid black;
+        }
+        .box3{
+            background-color: chartreuse; 
+            /* <sticky> scroll krne ke bad top pe jaakr fix ho jayega , content ke saath upar nahi jayega */
+            position: sticky;
+            top: 1px;
+            border: 3px solid black;
+        }
+        .box4{
+            background-color: aqua; /*<Absolute> apne parent jagh se space lega */
+            /* position: absolute;
+            left: 130px; */
+            
+
+            border: 3px solid black;
+        }
+        .box5{
+            background-color: orangered;
+            /* <static> this is default */
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Position -->
+    <div class="main">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+
+
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit odio fugiat blanditiis,  reiciorum quo quasi dicta provident vero nulla!</p>
+
+    </div>
+    
+    
+    
+    
+
+</body>
+</html>
