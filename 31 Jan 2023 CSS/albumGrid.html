@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create album with grid</title>
+    <style>
+        .container{
+            display: grid;
+            height: 700px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 250px);
+        }
+
+        .box {
+             /* height: 100px;
+             width: 100px;  */
+        }
+        .box1 {
+           background-color: red;
+           grid-row-start: 1;
+           grid-row-end: 3;
+           
+        }
+        .box2 {
+            background-color: yellow;
+        }
+        .box3 {
+            background-color: blue;
+        }
+        .box4 {
+            background-color: brown;
+            /* grid-column-start: 2;
+            grid-column-end: 4; */
+        }
+        .box5 {
+            background-color: purple;
+        }
+        .box6 {
+            background-color: palevioletred;
+            
+        }
+        .box7 {
+            background-color: maroon;
+            
+        }
+        .box8 {
+            background-color: olive;
+        }
+        .box9 {
+            background-color: orange;
+        }
+        .new{
+            height: 150px;
+            width: 150px;
+            
+            
+            
+            
+            
+        }
+        .boxn1{
+            background-color: black;
+            position: absolute;
+            top: 0%;
+            z-index: 1;
+            
+            
+            
+            
+            
+            
+            
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <!-- Album Grid -->
+    <div class="container">
+        <div class="box box1">
+            <div class="new boxn1"></div>
+        </div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+        <div class="box box9"></div>
+        <!-- home work - bring images in boxes and make 3 boxes in box1 (red box) -->
+        
+    </div>
+</body>
+</html>

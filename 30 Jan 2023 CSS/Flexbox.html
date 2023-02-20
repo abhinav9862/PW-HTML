@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        /* jab bhi flex pe kaam karna ho whaa karenge parent attribute ko target(.cont) aur uske andar likhenge <display:flex> it's a block line element, <display:inline-flex> use for inline element */
+        .cont{
+            display: flex;
+            border: 4px solid black;
+            height: 300px;
+            
+            /* flex-direction: row; */
+            /* flex direction is used for element reverse,row reverse */
+
+            /* The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines, (element chota nhi hota hai) */
+            /* flex-wrap: wrap; */
+
+            /* The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.<justify-content: center, justify-content:space-between, justify-content: space-around, justify-content:space-evenly> justify-content is run on mainaxis */
+            justify-content: center;
+
+            /* <align-items> run on y-axis (top-bottom), The CSS align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis. In Grid Layout, it controls the alignment of items on the Block Axis within their grid area. */
+            align-items:center;
+            /* height: 160px;........... */
+            
+            /* <gap: 2px;---- is used for gapping in elements>, <row-gap: 3px;--- gapping in rows>, <coloumn-gap: 2px;---- is also used for space in coloumn elements> */
+            gap: 30px;
+
+            
+        }
+        .box{
+            height: px;
+            width: px;
+            
+         }
+         .box1{
+            background-color:chocolate;
+         }
+         .box2{
+            background-color: darkgreen;
+         }
+         .box3{
+            background-color: blue;
+         }
+         .box4{
+            background-color: chartreuse;
+         }
+
+    </style>
+</head>
+<body>
+    <!-- Flex -->
+    <div class="cont">
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+        <div class="box box4">Box4</div>
+       
+
+
+    </div>
+</body>
+</html>
