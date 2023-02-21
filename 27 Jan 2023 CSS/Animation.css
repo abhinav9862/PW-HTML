@@ -1,11 +1,13 @@
 div{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color:red;
     animation-name: colorchange;
     position: relative;
-    animation-duration: 5s;
+    animation-duration:10s;
     animation-delay: 3;
+    animation-iteration-count: infinite;
+    gap: 2px;
     /* (iteration-count)is used for animation repeating */
     /* we alsouse (iteration-count: infnite) for continue repeating while we not getting page refresh */
     /* animation-iteration-count: 3;................ */
